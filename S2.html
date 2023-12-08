@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <body>
+      <h1>this is display </h1>
+       <p>to find the result </p>
+
+       <p id="demo"></p>
+
+       <script>  
+       function myDisplayer(some) {
+        document.getElementById("demo").innerHTML=some;
+       }
+
+       function myCalculater(num1,num2) {
+        let sum=num1+num2;
+        return sum;
+       }
+
+       let result=myCalculater(5,5);
+       myDisplayer(result);
+       </script>
+
+    </body>
+    </html>
